@@ -17,7 +17,7 @@ const Background = () => {
   }, []);
 
   return (
-    <div className="fixed inset-0 -z-10 flex items-center justify-center">
+    <div className="fixed inset-0 -z-10 flex items-center justify-center overflow-hidden">
       <svg
         width="1920"
         height="1080"
